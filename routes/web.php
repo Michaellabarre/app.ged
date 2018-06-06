@@ -20,3 +20,4 @@ Route::get('/', function () {
  */
 
 Route::get('/', 'AcceuilController@index')->name('home');
+Route::get('gestionDocuments', 'GestionDocumentController@index')->name('gestionDocuments');
