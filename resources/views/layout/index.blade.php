@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -78,7 +78,7 @@
                                         </form>
                                     </li>
                                     <li class="col-lg-3 col-xlg-3 m-b-30">
-                                        <h4 class="m-b-20">List style</h4>
+                                        <h4 class="m-b-20">Gestion Des Documents</h4>
                                         <!-- List style -->
                                         <ul class="list-style-none">
                                             <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
@@ -114,6 +114,15 @@
                             </div>
                         </li>
                         <!-- End Messages -->
+                        <!-- Language -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="flag-icon flag-icon-ci"></i></a>
+                            <div class="dropdown-menu animated zoomIn">
+                                <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-us"></i> Anglais</a>
+                                <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-fr"></i> Francais</a>
+
+                            </div>
+                        </li>
                     </ul>
                     <!-- User profile and search -->
                     <ul class="navbar-nav my-lg-0">
@@ -247,10 +256,10 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                         <li class="nav-devider"></li>
-                        <li class="nav-label">Home</li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard <span class="label label-rouded label-primary pull-right">2</span></span></a>
+                        <li class="nav-label">Acceuil</li>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Administration <span class="label label-rouded label-primary pull-right">2</span></span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="index.blade.php">Ecommerce </a></li>
+                                <li><a href="index.blade.php">Utilisateurs </a></li>
                                 <li><a href="index1.html">Analytics </a></li>
                             </ul>
                         </li>
@@ -260,106 +269,62 @@
                                 <li><a href="email-compose.html">Compose</a></li>
                                 <li><a href="email-read.html">Read</a></li>
                                 <li><a href="email-inbox.html">Inbox</a></li>
+                                <li><a href="email-inbox.html">Forum</a></li>
                             </ul>
                         </li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-bar-chart"></i><span class="hide-menu">Charts</span></a>
+                        <!-- GEST-DOCS -->
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-files-o"></i><span class="hide-menu">Gestion Des Documents</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="chart-flot.html">Flot</a></li>
-                                <li><a href="chart-morris.html">Morris</a></li>
-                                <li><a href="chart-chartjs.html">ChartJs</a></li>
-                                <li><a href="chart-chartist.html">Chartist </a></li>
-                                <li><a href="chart-amchart.html">AmChart</a></li>
-                                <li><a href="chart-echart.html">EChart</a></li>
-                                <li><a href="chart-sparkline.html">Sparkline</a></li>
-                                <li><a href="chart-peity.html">Peity</a></li>
+                                <li><a href="chart-flot.html"><i class="fa fa-user-plus"></i>Ajouter Nouveau</a></li>
+                                <li><a href="chart-morris.html">Lister Documents</a></li>
+                                <li><a href="chart-chartjs.html">Archives</a></li>
+                                <li><a href="chart-chartist.html">Corbeille </a></li>
+                                <li><a href="chart-chartist.html">Docuemnts En Attente</a></li>
+                                <li><a href="chart-chartist.html">Recherche Rapide</a></li>
                             </ul>
                         </li>
-                        <li class="nav-label">Features</li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-suitcase"></i><span class="hide-menu">Bootstrap UI <span class="label label-rouded label-warning pull-right">6</span></span></a>
+
+                        <!-- GEST-DOCS -->
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-folder-open"></i><span class="hide-menu">Gestion Des Repertoires</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="ui-alert.html">Alert</a></li>
-                                <li><a href="ui-button.html">Button</a></li>
-                                <li><a href="ui-dropdown.html">Dropdown</a></li>
-                                <li><a href="ui-progressbar.html">Progressbar</a></li>
-                                <li><a href="ui-tab.html">Tab</a></li>
-                                <li><a href="ui-typography.html">Typography</a></li>
+                                <li><a href="chart-flot.html">Ajouter Nouveau</a></li>
+                                <li><a href="chart-morris.html">Lister Dossiers</a></li>
+                                <li><a href="chart-chartjs.html">Archives</a></li>
+                                <li><a href="chart-chartist.html">Corbeille </a></li>
+                                <li><a href="chart-chartist.html">Actions</a></li>
+                                <li><a href="chart-chartist.html">Recherche Rapide</a></li>
                             </ul>
-                        </li>
-						<li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-suitcase"></i><span class="hide-menu">Components <span class="label label-rouded label-danger pull-right">6</span></span></a>
+
+                            <!-- ARCHIVES -->
+                        </li> <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive"></i><span class="hide-menu">Archivage</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="uc-calender.html">Calender</a></li>
-                                <li><a href="uc-datamap.html">Datamap</a></li>
-                                <li><a href="uc-nestedable.html">Nestedable</a></li>
-                                <li><a href="uc-sweetalert.html">Sweetalert</a></li>
-                                <li><a href="uc-toastr.html">Toastr</a></li>
-                                <li><a href="uc-weather.html">Weather</a></li>
+                                <li><a href="chart-morris.html">Lister Dossiers Archivés</a></li>
+                                <li><a href="chart-morris.html">Lister Documents Archivés</a></li>
+                                <li><a href="chart-chartist.html">Actions</a></li>
+                                <li><a href="chart-chartist.html">Recherche Rapide</a></li>
                             </ul>
                         </li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-wpforms"></i><span class="hide-menu">Forms</span></a>
+                        <!-- GEST-DOCS -->
+                        </li> <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Gestion des Utilisateurs</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="form-basic.html">Basic Forms</a></li>
-                                <li><a href="form-layout.html">Form Layout</a></li>
-                                <li><a href="form-validation.html">Form Validation</a></li>
-                                <li><a href="form-editor.html">Editor</a></li>
-                                <li><a href="form-dropzone.html">Dropzone</a></li>
+                                <li><a href="chart-morris.html">Ajouter Utilisateurs</a></li>
+                                <li><a href="chart-morris.html">Ajouter Privilèges</a></li>
+                                <li><a href="chart-chartist.html">Lister Privilèges</a></li>
                             </ul>
                         </li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-table"></i><span class="hide-menu">Tables</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="table-bootstrap.html">Basic Tables</a></li>
-                                <li><a href="table-datatable.html">Data Tables</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-label">Layout</li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-columns"></i><span class="hide-menu">Layout</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="layout-blank.html">Blank</a></li>
-                                <li><a href="layout-boxed.html">Boxed</a></li>
-                                <li><a href="layout-fix-header.html">Fix Header</a></li>
-                                <li><a href="layout-fix-sidebar.html">Fix Sidebar</a></li>
-                            </ul>
-                        </li>
+
                         <li class="nav-label">EXTRA</li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-book"></i><span class="hide-menu">Pages <span class="label label-rouded label-success pull-right">8</span></span></a>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-calendar-check-o"></i><span class="hide-menu">Agenda <span class="label label-rouded label-success pull-right">8</span></span></a>
                             <ul aria-expanded="false" class="collapse">
 
-                                <li><a href="#" class="has-arrow">Authentication <span class="label label-rounded label-success">6</span></a>
-                                    <ul aria-expanded="false" class="collapse">
-                                        <li><a href="page-login.html">Login</a></li>
-                                        <li><a href="page-register.html">Register</a></li>
-                                        <li><a href="page-invoice.html">Invoice</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="has-arrow">Error Pages</a>
-                                    <ul aria-expanded="false" class="collapse">
-                                        <li><a href="page-error-400.html">400</a></li>
-                                        <li><a href="page-error-403.html">403</a></li>
-                                        <li><a href="page-error-404.html">404</a></li>
-                                        <li><a href="page-error-500.html">500</a></li>
-                                        <li><a href="page-error-503.html">503</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="#" class="has-arrow">Voir Taches</a></li>
+                                <li><a href="#" class="has-arrow">Nouvelle Taches</a></li>
                             </ul>
                         </li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-map-marker"></i><span class="hide-menu">Maps</span></a>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-language"></i><span class="hide-menu">Langue</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="map-google.html">Google</a></li>
+                                <li><a href="map-google.html">Changer Langue</a></li>
                                 <li><a href="map-vector.html">Vector</a></li>
-                            </ul>
-                        </li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-level-down"></i><span class="hide-menu">Multi level dd</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="#">item 1.1</a></li>
-                                <li><a href="#">item 1.2</a></li>
-                                <li> <a class="has-arrow" href="#" aria-expanded="false">Menu 1.3</a>
-                                    <ul aria-expanded="false" class="collapse">
-                                        <li><a href="#">item 1.3.1</a></li>
-                                        <li><a href="#">item 1.3.2</a></li>
-                                        <li><a href="#">item 1.3.3</a></li>
-                                        <li><a href="#">item 1.3.4</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">item 1.4</a></li>
                             </ul>
                         </li>
                     </ul>
