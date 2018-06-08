@@ -13,7 +13,7 @@
                         </div>
                         <div class="media-body media-text-right">
                             <h2>568120</h2>
-                            <p class="m-b-0">Total Revenue</p>
+                            <p class="m-b-0">Documents Traités</p>
                         </div>
                     </div>
                 </div>
@@ -62,9 +62,9 @@
         <div class="bg-white card-toggle-body m-l-0 m-r-0 box-shadow ">
             <div class="button-list">
                 <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Ajouter Document</button></a>
-                <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Gestion Des Repertoires</button></a>
-                <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Archives</button></a>
-                <a href="#"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Profil Utilisateur</button></a>
+                <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Visualiser Documents</button></a>
+                <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Document Archivée</button></a>
+                <a href="#"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Deplacer des Documents</button></a>
             </div>
         </div>
 
@@ -212,7 +212,7 @@
             <div class="col-lg-4">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Todo</h4>
+                        <h4 class="card-title">Mon Agenda</h4>
                         <div class="card-content">
                             <div class="todo-list">
                                 <div class="tdl-holder">

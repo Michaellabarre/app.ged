@@ -63,7 +63,7 @@
                                     <a href="{{route('gestionDocuments')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Gestion Des Documents</button></a>
                                     <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Gestion Des Repertoires</button></a>
                                     <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Archives</button></a>
-                                    <a href="#"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Profil Utilisateur</button></a>
+                                    <a href="#"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Mails</button></a>
                                 </div>
                         </div>
 
@@ -80,10 +80,12 @@
                                         <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Name</th>
-                                            <th>Product</th>
-                                            <th>quantity</th>
-                                            <th>Status</th>
+                                            <th>Titre</th>
+                                            <th>Utilisateur</th>
+                                            <th>Chemin</th>
+                                            <th>Resume</th>
+                                            <th>Categorie</th>
+                                            <th>format</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -97,6 +99,8 @@
                                             <td>John Abraham</td>
                                             <td><span>iBook</span></td>
                                             <td><span>456 pcs</span></td>
+                                            <td><span>456 pcs</span></td>
+                                            <td><span>456 pcs</span></td>
                                             <td><span class="badge badge-success">Done</span></td>
                                         </tr>
                                         <tr>
@@ -107,6 +111,8 @@
                                             </td>
                                             <td>John Abraham</td>
                                             <td><span>iPhone</span></td>
+                                            <td><span>456 pcs</span></td>
+                                            <td><span>456 pcs</span></td>
                                             <td><span>456 pcs</span></td>
                                             <td><span class="badge badge-success">Done</span></td>
                                         </tr>
@@ -119,6 +125,8 @@
                                             <td>John Abraham</td>
                                             <td><span>iMac</span></td>
                                             <td><span>456 pcs</span></td>
+                                            <td><span>456 pcs</span></td>
+                                            <td><span>456 pcs</span></td>
                                             <td><span class="badge badge-warning">Pending</span></td>
                                         </tr>
                                         <tr>
@@ -129,6 +137,8 @@
                                             </td>
                                             <td>John Abraham</td>
                                             <td><span>iBook</span></td>
+                                            <td><span>456 pcs</span></td>
+                                            <td><span>456 pcs</span></td>
                                             <td><span>456 pcs</span></td>
                                             <td><span class="badge badge-success">Done</span></td>
                                         </tr>
