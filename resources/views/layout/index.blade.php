@@ -259,7 +259,7 @@
                         <li class="nav-label">Acceuil</li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Administration <span class="label label-rouded label-primary pull-right">2</span></span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="index.blade.php">Utilisateurs </a></li>
+                                <li><a href="index.blade.php"><i class="material-icons"></i> Utilisateurs </a></li>
                                 <li><a href="index1.html">Analytics </a></li>
                             </ul>
                         </li>
@@ -275,10 +275,10 @@
                         <!-- GEST-DOCS -->
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-files-o"></i><span class="hide-menu">Gestion Des Documents</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="chart-flot.html"><i class="fa fa-user-plus"></i>Ajouter Nouveau</a></li>
-                                <li><a href="chart-morris.html">Lister Documents</a></li>
-                                <li><a href="chart-chartjs.html">Archives</a></li>
-                                <li><a href="chart-chartist.html">Corbeille </a></li>
+                                <li><a href="chart-flot.html"><i class="fa fa-plus-circle"></i> Ajouter Nouveau</a></li>
+                                <li><a href="chart-morris.html"><i class="fa fa-list"></i> Lister Documents</a></li>
+                                <li><a href="chart-chartjs.html"><i class="fa fa-file-archive-o" aria-hidden="true"></i> Archives</a></li>
+                                <li><a href="chart-chartist.html"><i class="fa fa-trash"></i> Corbeille </a></li>
                                 <li><a href="chart-chartist.html">Docuemnts En Attente</a></li>
                                 <li><a href="chart-chartist.html">Recherche Rapide</a></li>
                             </ul>
@@ -287,29 +287,29 @@
                         <!-- GEST-DOCS -->
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-folder-open"></i><span class="hide-menu">Gestion Des Repertoires</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="chart-flot.html">Ajouter Nouveau</a></li>
-                                <li><a href="chart-morris.html">Lister Dossiers</a></li>
-                                <li><a href="chart-chartjs.html">Archives</a></li>
-                                <li><a href="chart-chartist.html">Corbeille </a></li>
-                                <li><a href="chart-chartist.html">Actions</a></li>
+                                <li><a href="chart-flot.html"><i class="fa fa-plus-circle"></i> Ajouter Nouveau</a></li>
+                                <li><a href="chart-morris.html"><i class="fa fa-list"></i> Lister Dossiers</a></li>
+                        <li><a href="chart-chartjs.html"><i class="fa fa-file-archive-o" aria-hidden="true"></i> Lister Archives</a></li>
+                                <li><a href="chart-chartist.html"><i class="fa fa-trash"></i> Corbeille </a></li>
+                                <li><a href="chart-chartist.html"><i class="fa fa-cog"></i> Actions</a></li>
                                 <li><a href="chart-chartist.html">Recherche Rapide</a></li>
                             </ul>
 
                             <!-- ARCHIVES -->
-                        </li> <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive"></i><span class="hide-menu">Archivage</span></a>
+                        </li> <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-file-archive-o" aria-hidden="true"></i><span class="hide-menu">Archivage</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="chart-morris.html">Lister Dossiers Archivés</a></li>
+                                <li><a href="chart-morris.html"><i class="fa fa-list"></i> Lister Dossiers Archivés</a></li>
                                 <li><a href="chart-morris.html">Lister Documents Archivés</a></li>
-                                <li><a href="chart-chartist.html">Actions</a></li>
+                                <li><a href="chart-chartist.html"> <i class="fa fa-cog"></i> Actions</a></li>
                                 <li><a href="chart-chartist.html">Recherche Rapide</a></li>
                             </ul>
                         </li>
                         <!-- GEST-DOCS -->
                         </li> <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Gestion des Utilisateurs</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="chart-morris.html">Ajouter Utilisateurs</a></li>
-                                <li><a href="chart-morris.html">Ajouter Privilèges</a></li>
-                                <li><a href="chart-chartist.html">Lister Privilèges</a></li>
+                                <li><a href="chart-morris.html"><i class="fa fa-user-plus"></i>Ajouter Utilisateurs</a></li>
+                                <li><a href="chart-morris.html"><i class="fa fa-plus-circle"></i>Ajouter Privilèges</a></li>
+                                <li><a href="chart-chartist.html"><i class="fa fa-list"></i> Lister Privilèges</a></li>
                             </ul>
                         </li>
 
@@ -318,7 +318,7 @@
                             <ul aria-expanded="false" class="collapse">
 
                                 <li><a href="#" class="has-arrow">Voir Taches</a></li>
-                                <li><a href="#" class="has-arrow">Nouvelle Taches</a></li>
+                                <li><a href="#" class="has-arrow"><i class="fa fa-plus-circle"></i>Nouvelle Taches</a></li>
                             </ul>
                         </li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-language"></i><span class="hide-menu">Langue</span></a>
@@ -342,7 +342,7 @@
                     <h3 class="text-primary">My_GED PRO</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Acceuil</a></li>
                         <li class="breadcrumb-item active">Dashboard</li>
                     </ol>
                 </div>
