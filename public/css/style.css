@@ -271,7 +271,7 @@ h6 {
   color: #ffb22b !important;
 }
 .text-success {
-  color: #26dad2 !important;
+  color: #2ce132 !important;
 }
 .text-info {
   color: #1976d2 !important;
@@ -280,7 +280,7 @@ h6 {
   color: #2f3d4a !important;
 }
 .text-blue {
-  color: #02bec9;
+  color: #304819;
 }
 .text-purple {
   color: #7460ee;
@@ -301,7 +301,7 @@ h6 {
   background-color: #5c4ac7 !important;
 }
 .bg-success {
-  background-color: #26dad2 !important;
+  background-color: #0062cc !important;
 }
 .bg-info {
   background-color: #1976d2 !important;
@@ -825,7 +825,7 @@ h6.h1 {
 }
 .color-success,
 .text-success {
-  color: #26dad2;
+  color: #2ce132;
 }
 .color-info,
 .text-info {
@@ -867,14 +867,14 @@ h6.h1 {
   fill: #4680ff;
 }
 .bg-success {
-  background: #26dad2 !important;
+  background: #226dad !important;
   color: #ffffff;
-  fill: #26dad2;
+  fill: #26ad2d;
 }
 .bg-info {
-  background: #62d1f3 !important;
+  background: #621f3d !important;
   color: #ffffff;
-  fill: #62d1f3;
+  fill: #621f3d;
 }
 .bg-danger {
   background: #fc6180 !important;
@@ -917,10 +917,10 @@ h6.h1 {
   border-color: #4680ff;
 }
 .border-success {
-  border-color: #26dad2;
+  border-color: #26dd2a;
 }
 .border-info {
-  border-color: #62d1f3;
+  border-color: #62df31;
 }
 .border-danger {
   border-color: #fc6180;
@@ -965,8 +965,8 @@ h6.h1 {
   fill: #3b5998;
 }
 .bg-twitter {
-  background: #1da1f2;
-  fill: #1da1f2;
+  background: #1a1f2d;
+  fill: #1da12f;
 }
 .bg-youtube {
   background: #cd201f;
@@ -1813,7 +1813,7 @@ textarea {
   transform: translate(0, -2px);
 }
 .badge-success {
-  background-color: #26dad2;
+  background-color: #2dad26;
 }
 .badge-info {
   background-color: #1976d2;
@@ -1851,7 +1851,7 @@ textarea {
   background-color: #00897b;
 }
 .label-success {
-  background-color: #26dad2;
+  background-color: #6add22;
 }
 .label-info {
   background-color: #1976d2;
@@ -1885,7 +1885,7 @@ textarea {
 }
 .label-light-success {
   background-color: #e8fdeb;
-  color: #26dad2;
+  color: #26ad2d;
 }
 .label-light-info {
   background-color: #cfecfe;
@@ -2163,8 +2163,8 @@ textarea {
   color: rgba(255, 255, 255, 0.65);
 }
 .card-success {
-  background: #26dad2 none repeat scroll 0 0;
-  border-color: #26dad2;
+  background: #26add2 none repeat scroll 0 0;
+  border-color: #2ad26d;
 }
 .card-danger {
   background: #ef5350 none repeat scroll 0 0;
@@ -2231,11 +2231,11 @@ textarea {
   border-color: #ffb22b;
 }
 .card-outline-success {
-  border-color: #26dad2;
+  border-color: #2dad26;
 }
 .card-outline-success .card-header {
-  background: #26dad2 none repeat scroll 0 0;
-  border-color: #26dad2;
+  background: #2dad26 none repeat scroll 0 0;
+  border-color: #26d2da;
 }
 .card-outline-danger {
   border-color: #ef5350;

@@ -60,10 +60,11 @@
                 <!-- BTN AJOUTER, LISTER, ARCHIVES -->
                         <div class="bg-white card-toggle-body m-l-0 m-r-0 box-shadow ">
                                 <div class="button-list">
-                                    <a href="{{route('gestionDocuments')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Gestion Des Documents</button></a>
-                                    <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Gestion Des Repertoires</button></a>
-                                    <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Archives</button></a>
-                                    <a href="#"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Mails</button></a>
+                                    <a href="{{route('gestionDocuments')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Documents</button></a>
+                                    <a href="{{route('gestionRepertoires')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Repertoires</button></a>
+                                    <a href="{{route('gestionArchives')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5"> Archives</button></a>
+                                    <a href="{{route('gestionMails')}}"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5"> Mails</button></a>
+                                    <a href="{{route('gestionUtilisateurs')}}"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5"> Utlisateurs</button></a>
                                 </div>
                         </div>
 
