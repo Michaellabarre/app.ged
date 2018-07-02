@@ -15,6 +15,16 @@ class CreateCorbeillesTable extends Migration
     {
         Schema::create('corbeilles', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('intitule')->unique();
+            $table->string('description');
+
+            //Cle Etrangere Documents
+            $table->unsignedInteger('documents');
+            $table->foreign('documents')
+                ->references('id')->on('documents')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
+
             $table->timestamps();
         });
     }

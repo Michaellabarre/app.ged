@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Categories_archives extends Model
 {
-    //
+    protected $fillable = [
+        'intitule', 'description'
+    ];
 }

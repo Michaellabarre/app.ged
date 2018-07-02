@@ -14,7 +14,9 @@ class CreateCategoriesArchivesTable extends Migration
     public function up()
     {
         Schema::create('categories_archives', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unique();
+            $table->string('intitule');
+            $table->string('description');
             $table->timestamps();
         });
     }
