@@ -14,7 +14,7 @@ class CreateFormatsTable extends Migration
     public function up()
     {
         Schema::create('formats', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string('intitule')->unique();
             $table->string('description');
             $table->timestamps();

@@ -14,19 +14,19 @@ class CreateArchivesTable extends Migration
     public function up()
     {
         Schema::create('archives', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string('intitule')->unique();
             $table->string('description');
 
             //Cle Etrangere Cat_Archives
-            $table->unsignedInteger('categories_archives');
+            $table->integer('categories_archives')->unsigned();
             $table->foreign('categories_archives')
                   ->references('id')->on('categories_archives')
                   ->onUpdate('cascade')
                   ->onDelete('cascade');
 
             //Cle Etrangere Documents
-            $table->unsignedInteger('documents');
+            $table->integer('documents')->unsigned();
             $table->foreign('documents')
                   ->references('id')->on('documents')
                   ->onUpdate('cascade')

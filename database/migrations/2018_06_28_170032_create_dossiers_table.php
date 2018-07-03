@@ -14,12 +14,12 @@ class CreateDossiersTable extends Migration
     public function up()
     {
         Schema::create('dossiers', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string('intitule')->unique();
             $table->string('description');
 
             //Cle Etrangere Documents
-            $table->unsignedInteger('documents');
+            $table->integer('documents')->unsigned();
             $table->foreign('documents')
                 ->references('id')->on('documents')
                 ->onUpdate('cascade')

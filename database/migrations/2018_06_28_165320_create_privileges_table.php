@@ -14,7 +14,7 @@ class CreatePrivilegesTable extends Migration
     public function up()
     {
         Schema::create('privileges', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string('intitule')->unique();
             $table->string('description');
             $table->integer('niveau');

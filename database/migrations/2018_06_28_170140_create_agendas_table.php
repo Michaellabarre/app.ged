@@ -14,12 +14,12 @@ class CreateAgendasTable extends Migration
     public function up()
     {
         Schema::create('agendas', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string('intitule')->unique();
             $table->string('description');
 
             //Cle Etrangere Users
-            $table->unsignedInteger('users');
+            $table->integer('users')->unsigned();
             $table->foreign('users')
                 ->references('id')->on('users')
                 ->onUpdate('cascade')

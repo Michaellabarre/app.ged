@@ -14,13 +14,13 @@ class CreateMessagesTable extends Migration
     public function up()
     {
         Schema::create('messages', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string('objet');
             $table->string('contenu');
             $table->string('destinataire');
 
             //Cle Etrangere Users
-            $table->unsignedInteger('users');
+            $table->integer('users')->unsigned();
             $table->foreign('users')
                 ->references('id')->on('users')
                 ->onUpdate('cascade')

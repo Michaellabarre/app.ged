@@ -14,12 +14,12 @@ class CreateGroupeUtlisateursTable extends Migration
     public function up()
     {
         Schema::create('groupe_utlisateurs', function (Blueprint $table) {
-            $table->increments('id')->unique();
-            $table->increments('intitule');
-            $table->increments('description');
+            $table->increments('id')->unsigned();
+            $table->string('intitule')->unique();
+            $table->string('description');
 
             //Cle Etrangere Privileges
-            $table->unsignedInteger('privileges');
+            $table->integer('privileges')->unsigned();
             $table->foreign('privileges')
                 ->references('id')->on('privileges')
                 ->onUpdate('cascade')

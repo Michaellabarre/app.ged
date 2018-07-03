@@ -14,14 +14,17 @@ class CreateCategoriesDocumentsTable extends Migration
     public function up()
     {
         Schema::create('categories_documents', function (Blueprint $table) {
-            $table->increments('id')->unique();
+            $table->increments('id')->unsigned();
             $table->string('intitule');
             $table->string('description');
-            $table->unsignedInteger('sous_categories');
+
+            //cle etrangere Sous_Categories
+            $table->integer('sous_categories')->unsigned();
             $table->foreign('sous_categories')
                   ->references('id')->on('sous_categories')
                   ->onUpdate('cascade')
                   ->onDelete('cascade');
+
             $table->timestamps();
         });
     }

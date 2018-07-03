@@ -14,35 +14,35 @@ class CreateDocumentsTable extends Migration
     public function up()
     {
         Schema::create('documents', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string('intitule')->unique();
             $table->string('resume');
             $table->string('mot_cle');
             $table->string('chemin');
 
             //Cle Etrangere Users
-            $table->unsignedInteger('users');
+            $table->integer('users')->unsigned();
             $table->foreign('users')
                 ->references('id')->on('users')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
             //Cle Etrangere Cat_Documents
-            $table->unsignedInteger('categories_documents');
+            $table->integer('categories_documents')->unsigned();
             $table->foreign('categories_documents')
                 ->references('id')->on('categories_documents')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
             //Cle Etrangere Statuts
-            $table->unsignedInteger('statuts');
+            $table->integer('statuts')->unsigned();
             $table->foreign('statuts')
                 ->references('id')->on('statuts')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
             //Cle Etrangere Format
-            $table->unsignedInteger('formats');
+            $table->integer('formats')->unsigned();
             $table->foreign('formats')
                 ->references('id')->on('formats')
                 ->onUpdate('cascade')

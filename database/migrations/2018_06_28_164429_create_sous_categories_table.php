@@ -14,7 +14,7 @@ class CreateSousCategoriesTable extends Migration
     public function up()
     {
         Schema::create('sous_categories', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string('intitule')->unique();
             $table->string('description');
             $table->timestamps();
