@@ -11,6 +11,16 @@ class GestionDocumentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function  addDoc()
+    {
+        return view('gestionDocuments.addDocument');
+    }
+
+    public function  showDoc()
+    {
+        return view('gestionDocuments.showDocument');
+    }
     public function index()
     {
         return view('gestionDocuments.gestionDocuments');

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/images.png">
     <title>Systeme de Gestion Electronique de Documents</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.blade.php">
                         <!-- Logo icon -->
-                        <b><img src="images/logo.png" alt="homepage" class="dark-logo" /></b>
+                        <b><img src="images/images.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span><img src="images/logo-text.png" alt="homepage" class="dark-logo" /></span>
@@ -88,28 +88,7 @@
                                             <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
                                         </ul>
                                     </li>
-                                    <li class="col-lg-3 col-xlg-3 m-b-30">
-                                        <h4 class="m-b-20">List style</h4>
-                                        <!-- List style -->
-                                        <ul class="list-style-none">
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="col-lg-3 col-xlg-3 m-b-30">
-                                        <h4 class="m-b-20">List style</h4>
-                                        <!-- List style -->
-                                        <ul class="list-style-none">
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
-                                        </ul>
-                                    </li>
+
                                 </ul>
                             </div>
                         </li>
@@ -352,7 +331,7 @@
            @yield('appContent')
             <!-- End Container fluid  -->
             <!-- footer -->
-            <footer class="footer"> © 2018 All rights reserved <a href="https://colorlib.com">Colorlib</a></footer>
+            <footer class="footer"> © 2018 All rights reserved</footer>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->
@@ -372,12 +351,6 @@
     <!--Custom JavaScript -->
 
 
-    <!-- Amchart -->
-     <script src="js/lib/morris-chart/raphael-min.js"></script>
-    <script src="js/lib/morris-chart/morris.js"></script>
-    <script src="js/lib/morris-chart/dashboard1-init.js"></script>
-
-
 	<script src="js/lib/calendar-2/moment.latest.min.js"></script>
     <!-- scripit init-->
     <script src="js/lib/calendar-2/semantic.ui.min.js"></script>
@@ -390,6 +363,17 @@
 
     <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
+
+    <!-- Data tables -->
+    <script src="js/lib/datatables/datatables.min.js"></script>
+    <script src="js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+    <script src="js/lib/datatables/cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script src="js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+    <script src="js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
+    <script src="js/lib/datatables/datatables-init.js"></script>
 
     <!-- scripit init-->
 

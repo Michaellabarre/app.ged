@@ -61,7 +61,7 @@
         <!-- BTN AJOUTER, LISTER, ARCHIVES -->
         <div class="bg-white card-toggle-body m-l-0 m-r-0 box-shadow ">
             <div class="button-list">
-                <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Ajouter Document</button></a>
+                <a href="{{route('addDocuments')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Ajouter Document</button></a>
                 <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Visualiser Documents</button></a>
                 <a href="#"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Document Archivée</button></a>
                 <a href="#"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Deplacer des Documents</button></a>
