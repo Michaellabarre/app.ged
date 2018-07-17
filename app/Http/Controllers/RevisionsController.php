@@ -14,7 +14,7 @@ class RevisionsController extends Controller
      */
     public function index()
     {
-        //
+        return view('gestionDocuments.revisions');   //
     }
 
     /**

@@ -1,72 +1,172 @@
 @extends('layout.index')
 @section('appContent')
             <!-- Container fluid  -->
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;
             <div class="container-fluid">
                 <!-- Start Page Content -->
                 <div class="row">
-                    <div class="col-md-3">
+
                         <div class="card p-30">
                             <div class="media">
                                 <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-file f-s-40 color-primary"></i></span>
+                                    <span><i class="fa fa-folder-open-o" style="font-size:45px;color:dimgrey"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
-                                    <h2>568120</h2>
-                                    <p class="m-b-0">Total Revenue</p>
+                                     <p class="m-b-0">
+                                         <a href="{{route('gestionDossiers')}}">
+                                             <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                                 Gestion  Dossiers</button>
+                                         </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3">
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+
                         <div class="card p-30">
                             <div class="media">
                                 <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-cloud f-s-40 color-success"></i></span>
+                                    <span><i class="fa fa-file" style="font-size:45px ;color:dimgrey"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
-                                    <h2>1178</h2>
-                                    <p class="m-b-0">Sales</p>
+
+                                    <p class="m-b-0">
+                                        <a href="{{route('gestionDocuments')}}">
+                                            <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                                Gestion Documents</button>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3">
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;
                         <div class="card p-30">
                             <div class="media">
                                 <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-archive f-s-40 color-warning"></i></span>
+                                    <span><i class="fa fa-archive" style="font-size:45px;color:dimgrey"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
-                                    <h2>25</h2>
-                                    <p class="m-b-0">Stores</p>
+
+                                    <p class="m-b-0">
+                                        <a href="{{route('gestionArchives')}}">
+                                            <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                                Gestion Archives</button>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-envelope" style="font-size:45px;color:dimgrey"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+
+                                    <p class="m-b-0">
+                                        <a href="{{route('gestionMails')}}">
+                                            <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                                Gestion des Mails</button>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    <div class="card p-30">
+                        <div class="media">
+                            <div class="media-left meida media-middle">
+                                <span><i class="fa fa-trash" style="font-size:45px;color:dimgrey"></i></span>
+                            </div>
+                            <div class="media-body media-text-right">
+
+                                <p class="m-b-0">
+                                    <a href="{{route('corbeilles')}}">
+                                        <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                            Gestion Corbeilles</button>&#160;&#160;&#160;&#160;
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="card p-30">
-                            <div class="media">
-                                <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-user f-s-40 color-danger"></i></span>
-                                </div>
-                                <div class="media-body media-text-right">
-                                    <h2>847</h2>
-                                    <p class="m-b-0">Customer</p>
-                                </div>
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    <div class="card p-30">
+                        <div class="media">
+                            <div class="media-left meida media-middle">
+                                <span><i class="fa fa-user" style="font-size:45px;color:dimgrey;"></i></span>
+                            </div>
+                            <div class="media-body media-text-right">
+
+                                <p class="m-b-0">
+                                    <a href="{{route('gestionUtilisateurs')}}">
+                                        <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                            Gestion Utlisateurs</button>
+                                    </a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    <div class="card p-30">
+                        <div class="media">
+                            <div class="media-left meida media-middle">
+                                <span><i class="fa fa-user" style="font-size:45px;color:dimgrey;"></i></span>
+                            </div>
+                            <div class="media-body media-text-right">
+
+                                <p class="m-b-0">
+                                    <a href="{{route('gestionAgendas')}}">
+                                        <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                            Gestion Agendas</button>  &#160;&#160;&#160;&#160;
+                                    </a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    <div class="card p-30">
+                        <div class="media">
+                            <div class="media-left meida media-middle">
+                                <span><i class="fa fa-user" style="font-size:45px;color:dimgrey;"></i></span>
+                            </div>
+                            <div class="media-body media-text-right">
+
+                                <p class="m-b-0">
+                                    <a href="{{route('gestionAgendas')}}">
+                                        <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                           Gestion Revisions</button>&#160;&#160;&#160;&#160;
+                                    </a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    <div class="card p-30">
+                        <div class="media">
+                            <div class="media-left meida media-middle">
+                                <span><i class="fa fa-user" style="font-size:45px;color:dimgrey;"></i></span>
+                            </div>
+                            <div class="media-body media-text-right">
+
+                                <p class="m-b-0">
+                                    <a href="{{route('gestionAgendas')}}">
+                                        <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                           Gestion Historique</button>&#160;&#160;&#160;&#160;
+                                    </a>
+
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <!-- BTN AJOUTER, LISTER, ARCHIVES -->
-                        <div class="bg-white card-toggle-body m-l-0 m-r-0 box-shadow ">
-                                <div class="button-list">
-                                    <a href="{{route('gestionDocuments')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Documents</button></a>
-                                    <a href="{{route('gestionRepertoires')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Repertoires</button></a>
-                                    <a href="{{route('gestionArchives')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5"> Archives</button></a>
-                                    <a href="{{route('gestionMails')}}"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5"> Mails</button></a>
-                                    <a href="{{route('gestionUtilisateurs')}}"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5"> Utlisateurs</button></a>
-                                </div>
-                        </div>
+
 
                 <div class="row">
                     <!-- Column     -->

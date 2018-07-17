@@ -16,30 +16,13 @@
                         <p class="m-b-0">
                             <a href="{{route('addArchives')}}">
                                 <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Ajouter Documents </button>
+                                    Ajouter un Dossier </button>&#160;&#160;&#160;&#160;&#160;
                             </a>
                         </p>
                     </div>
                 </div>
             </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
 
-            <div class="card p-30">
-                <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-object-group" style="font-size:48px;color:black"></i></span>
-                    </div>
-                    <div class="media-body media-text-right">
-
-                        <p class="m-b-0">
-                            <a href="{{route('catArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Archiver Documents</button>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
             &#160;&#160;&#160;&#160;&#160;&#160;
             <div class="card p-30">
                 <div class="media">
@@ -51,7 +34,7 @@
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
                                 <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Liste Documents</button>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                                    Liste des Dossier</button>&#160;&#160;&#160;&#160;&#160;&#160;
                             </a>
                         </p>
 
@@ -69,7 +52,7 @@
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
                                 <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Importer Documents</button>
+                                    Importer Dossiers</button>
                             </a>
                         </p>
                     </div>
@@ -86,7 +69,7 @@
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
                                 <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Déplacer Documents</button>&#160;&#160;&#160;&#160;
+                                    Déplacer Dossiers</button>&#160;&#160;
                             </a>
                         </p>
                     </div>
@@ -103,7 +86,7 @@
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
                                 <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Consulter Documents</button>
+                                    Consulter Dossiers</button>
                             </a>
                         </p>
                     </div>
@@ -120,46 +103,14 @@
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
                                 <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Exporter Documents</button>
+                                    Exporter Dossiers</button>
                             </a>
                         </p>
                     </div>
                 </div>
             </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
-            <div class="card p-30">
-                <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-heartbeat" style="font-size:48px;color:black"></i></span>
-                    </div>
-                    <div class="media-body media-text-right">
 
-                        <p class="m-b-0">
-                            <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Convertir Documents</button>&#160;&#160;&#160;&#160;
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
-            <div class="card p-30">
-                <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-edit" style="font-size:48px;color:black"></i></span>
-                    </div>
-                    <div class="media-body media-text-right">
 
-                        <p class="m-b-0">
-                            <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Traiter un Documents</button>&#160;&#160;&#160;&#160;
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
 
 
         </div>
@@ -175,7 +126,7 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-title">
-                        <h4>Recent Documents </h4>
+                        <h4>Recent Dossiers </h4>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">

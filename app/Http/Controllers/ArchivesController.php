@@ -12,12 +12,22 @@ class ArchivesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function  addArch()
     {
-        //
+        return view('archives.addArchives');
     }
 
-    /**
+    public function  showArch()
+    {
+        return view('archives.showArchives');
+    }
+    public function index()
+   {
+return view('archives.gestionArchives');
+}
+
+
+/**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response

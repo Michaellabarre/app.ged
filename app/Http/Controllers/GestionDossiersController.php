@@ -1,22 +1,40 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: pc
+ * Date: 10/07/2018
+ * Time: 16:56
+ */
 
 namespace App\Http\Controllers;
 
-use App\Groupe_utlisateurs;
-use Illuminate\Http\Request;
 
-class GroupeUtlisateursController extends Controller
+class GestionDossiersController
+
 {
-    public function index()
-    {
-        return view('utilisateurs.groupeUtilisateurs');
-    }
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
 
+    public function  addDoc()
+    {
+        return view('gestionDossiers.addDossiers');
+    }
+
+    public function  showDoc()
+    {
+        return view('gestionDossiers.showDossiers');
+    }
+    public function index()
+    {
+        return view('gestionDossiers.gestionDossiers');
+    }
+    public function  histo()
+    {
+        return view('historiques.historique');
+    }
 
     /**
      * Show the form for creating a new resource.
@@ -42,10 +60,10 @@ class GroupeUtlisateursController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Groupe_utlisateurs  $groupe_utlisateurs
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Groupe_utlisateurs $groupe_utlisateurs)
+    public function show($id)
     {
         //
     }
@@ -53,10 +71,10 @@ class GroupeUtlisateursController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Groupe_utlisateurs  $groupe_utlisateurs
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Groupe_utlisateurs $groupe_utlisateurs)
+    public function edit($id)
     {
         //
     }
@@ -65,10 +83,10 @@ class GroupeUtlisateursController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Groupe_utlisateurs  $groupe_utlisateurs
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Groupe_utlisateurs $groupe_utlisateurs)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -76,10 +94,10 @@ class GroupeUtlisateursController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Groupe_utlisateurs  $groupe_utlisateurs
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Groupe_utlisateurs $groupe_utlisateurs)
+    public function destroy($id)
     {
         //
     }

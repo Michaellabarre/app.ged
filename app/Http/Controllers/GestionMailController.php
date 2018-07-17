@@ -13,8 +13,21 @@ class GestionMailController extends Controller
      */
     public function index()
     {
-        return view('gestionMails.gestionMails');
+        return view('Mail.gestionMail');
     }
+    public function recept()
+    {
+        return view('Mail.boiteReception');
+    }
+    public function meEnv()
+    {
+        return view('Mail.messageEnvoye');
+    }
+    public function nouMail ()
+    {
+        return view('Mail.nouveauMail');
+    }
+
 
     /**
      * Show the form for creating a new resource.
