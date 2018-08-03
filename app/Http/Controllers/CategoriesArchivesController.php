@@ -12,9 +12,10 @@ class CategoriesArchivesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+
+        public function index()
     {
-        //
+        return view('archives.catArchives');
     }
 
     /**

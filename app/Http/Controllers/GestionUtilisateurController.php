@@ -13,9 +13,17 @@ class GestionUtilisateurController extends Controller
      */
     public function index()
     {
-        return view('gestionUtilisateurs.gestionUtilisateurs');
+        return view('utilisateurs.gestionUtilisateurs');
     }
 
+    public function addUtil()
+    {
+        return view('utilisateurs.addUtilisateurs');
+    }
+public function showUtil()
+{
+    return view('utilisateurs.showUtilisateurs');
+}
     /**
      * Show the form for creating a new resource.
      *

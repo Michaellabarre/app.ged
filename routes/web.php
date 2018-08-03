@@ -24,10 +24,36 @@ Route::get('/', 'AcceuilController@index')->name('home');
  *  Route Gestion des Documents
  */
 Route::get('gestionDocuments', 'GestionDocumentController@index')->name('gestionDocuments');
-
-// Route Ajout LIst Modif
 Route::get('addDocuments', 'GestionDocumentController@addDoc')->name('addDocuments');
 Route::get('showDocument', 'GestionDocumentController@showDoc')->name('showDocument');
+Route::get('revisions', 'RevisionsController@index')->name('revisions');
+Route::get('revisions', 'RevisionsController@index')->name('revisions');
+Route::get('revisions', 'RevisionsController@index')->name('revisions');
+Route::get('revisions', 'RevisionsController@index')->name('revisions');
+Route::get('revisions', 'RevisionsController@index')->name('revisions');
+
+
+/**
+ *  Route Gestion des Dossiers
+ *
+ */
+route::get('gestionDossiers','GestionDossiersController@index')->name('gestionDossiers');
+Route::get('addDossiers', 'GestionDossiersController@addDoc')->name('addDossiers');
+Route::get('showDossiers', 'GestionDossiersController@showDoc')->name('showDossiers');
+Route::get('consulDossiers', 'GestionDossiersController@consul')->name('consulDossiers');
+Route::get('exportDossiers', 'GestionDossiersController@expo')->name('exportDossiers');
+Route::get('imporDossiers', 'GestionDossiersController@impo')->name('imporDossiers');
+Route::get('deplDossiers', 'GestionDossiersController@depl')->name('deplDossiers');
+
+
+/**
+ *  Route Gestion des Documents
+ */
+Route::get('historique','GestionDossiersController@histo')->name('historique');
+
+//route Gestion des dossiers
+
+
 
 
 
@@ -43,8 +69,3 @@ route::get('gestionUtilisateurs','GestionUtilisateurController@index')->name('ge
  */
 
 Route::get('dashboard','AdminController@index')->name('dashboard');
-
-       /**
-        * Admin Users
-        */
-       Route::get('user', 'AdminController@userShow')->name('user');

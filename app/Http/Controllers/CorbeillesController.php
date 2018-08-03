@@ -12,8 +12,9 @@ class CorbeillesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function corb()
     {
+        return view('corbeilles.corbeilles');
         //
     }
 

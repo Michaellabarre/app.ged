@@ -1,62 +1,50 @@
 @extends('layout.index')
 @section('appContent')
 
-    <!-- Container fluid  -->
-     <div class="container-fluid">
-         <div class="row">
-             <div class="col-lg-30">
-                 <h1 class="text text-center "><span class="label label-warning">GESTION DES DOCUMENTS</span></h1>
-             </div>
-         </div>
-         <br/><br/
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-30">
+            <h1 class="text text-center "><span class="label label-warning">GESTION DES ARCHIVES</span></h1>
+        </div>
+    </div>
+    <br/><br/> <!-- Container fluid  -->
+
+        &#160;
         <!-- Start Page Content -->
-        <div class="row">
+        <div class="row center-block">
 
+            &#160;
+                    <div class="media">
 
-                <div class="media">
+                        <div class="media-body media-text-right">
 
-                    <div class="media-body media-text-right">
-
-                        <p class="m-b-0">
-                            <a href="{{route('addDocuments')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-plus-circle" style="font-size:20px;color:black"></i></span>
-                                    Ajouter Documents </button>
-                            </a>
-                        </p>
+                            <p class="m-b-0">
+                                <a href="{{route('addArchives')}}">
+                                    <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-plus-circle" style="font-size:20px;color:black"></i></span>
+                                        Ajouter Archives </button>
+                                </a>
+                            </p>
+                        </div>
                     </div>
-                </div>
+
+
+
 
             &#160;
 
+                    <div class="media">
 
-                <div class="media">
+                        <div class="media-body media-text-right">
 
-                    <div class="media-body media-text-right">
+                            <p class="m-b-0">
+                                <a href="{{route('showArchives')}}">
+                                    <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-reorder" style="font-size:20px;color:black"></i></span>
+                                        Liste Archives</button>
+                                </a>
+                            </p>
 
-                        <p class="m-b-0">
-                            <a href="{{route('catArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-object-group" style="font-size:20px;color:black"></i></span>
-                                    Archiver Documents</button>
-                            </a>
-                        </p>
+                        </div>
                     </div>
-                </div>
-
-            &#160;
-
-                <div class="media">
-
-                    <div class="media-body media-text-right">
-
-                        <p class="m-b-0">
-                            <a href="{{route('showDocument')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-reorder" style="font-size:20px;color:black"></i></span>
-                                    Liste Documents</button>
-                            </a>
-                        </p>
-
-                    </div>
-                </div>
 
             &#160;
 
@@ -66,8 +54,8 @@
 
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-level-down" style="font-size:20px;color:black"></i></span>
-                                    Importer Documents</button>
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-level-down" style="font-size:20px;color:black"></i></span>
+                                    Importer Archives</button>
                             </a>
                         </p>
                     </div>
@@ -82,7 +70,7 @@
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
                                 <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-retweet" style="font-size:20px;color:black"></i></span>
-                                    Déplacer Documents</button>
+                                    Déplacer Archives</button>
                             </a>
                         </p>
                     </div>
@@ -90,16 +78,14 @@
 
             &#160;
 
-
-
                 <div class="media">
 
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-level-up" style="font-size:20px;color:black"></i></span>
-                                    Exporter Documents</button>
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-newspaper-o" style="font-size:20px;color:black"></i></span>
+                                    Consulter Archives</button>
                             </a>
                         </p>
                     </div>
@@ -107,6 +93,20 @@
 
             &#160;
 
+                <div class="media">
+
+                    <div class="media-body media-text-right">
+
+                        <p class="m-b-0">
+                            <a href="{{route('showArchives')}}">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm">    <span><i class="fa fa-level-up" style="font-size:20px;color:black"></i></span>
+                                    Exporter Archives</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+            &#160;
 
                 <div class="media">
 
@@ -114,16 +114,31 @@
 
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-edit" style="font-size:20px;color:black"></i></span>
-                                    Traiter un Documents</button>
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-heartbeat" style="font-size:20px;color:black"></i></span>
+                                    Convertir Archives</button>
                             </a>
                         </p>
                     </div>
                 </div>
 
+            &#160;
+
+                <div class="media">
+
+                    <div class="media-body media-text-right">
+
+                        <p class="m-b-0">
+                            <a href="{{route('showArchives')}}">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm">  <span><i class="fa fa-edit" style="font-size:20px;color:black"></i></span>
+                                    Traiter un Archives</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
 
 
         </div>
+
         <!-- BTN AJOUTER, LISTER, ARCHIVES -->
         <div class="bg-white card-toggle-body m-l-0 m-r-0 box-shadow ">
             <div class="button-list">
@@ -136,7 +151,7 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-title">
-                        <h4>Recent Documents </h4>
+                        <h4>Recent Archives </h4>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -209,9 +224,9 @@
         <!-- End PAge Content -->
     </div>
     <!-- End Container fluid  -->
-    </div>
+
     <!-- End Page wrapper  -->
-    </div>
+
 
 
 @endsection

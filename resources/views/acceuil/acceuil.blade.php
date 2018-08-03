@@ -1,155 +1,123 @@
 @extends('layout.index')
 @section('appContent')
             <!-- Container fluid  -->
-            <div class="container-fluid">
+
+            <div class="container-fluid center-block">
                 <!-- Start Page Content -->
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card p-30">
-                            <div class="media">
-                                <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-file f-s-40 color-primary"></i></span>
-                                </div>
-                                <div class="media-body media-text-right">
-                                    <h2>568120</h2>
-                                    <p class="m-b-0">Total Revenue</p>
-                                </div>
-                            </div>
-                        </div>
+
+
+                <div class="row text-center">
+                    &#160;
+
+
+                    <div class="card " >
+
+                        <a href="{{route('gestionDossiers')}}">
+                            <div class="btn-group-vertical ">
+                            <button type="button" class="btn  btn-sm ">
+                                <img src="images/Dossier.jpg" style="height: 100px; width: 100px; " alt="">
+                            </button>
+                              <button type="button" class="btn btn-sm">
+                                  <p class="m-b-0" style="color: blue">
+                                            Gestion  Dossiers
+                                  </p>
+                              </button>
                     </div>
-                    <div class="col-md-3">
-                        <div class="card p-30">
-                            <div class="media">
-                                <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-cloud f-s-40 color-success"></i></span>
-                                </div>
-                                <div class="media-body media-text-right">
-                                    <h2>1178</h2>
-                                    <p class="m-b-0">Sales</p>
-                                </div>
-                            </div>
-                        </div>
+
+                        </a>
+
                     </div>
-                    <div class="col-md-3">
-                        <div class="card p-30">
-                            <div class="media">
-                                <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-archive f-s-40 color-warning"></i></span>
-                                </div>
-                                <div class="media-body media-text-right">
-                                    <h2>25</h2>
-                                    <p class="m-b-0">Stores</p>
-                                </div>
+                    &#160;
+
+                    <div class="card " >
+
+                        <a href="{{route('gestionDocuments')}}">
+                            <div class="btn-group-vertical">
+                                <button type="button" class="btn btn-sm   ">
+                                <img src="images/document.jpg" style="height: 100px; width: 100px; " alt="">
+                                </button>
+
+                                <button type="button" class="btn btn-sm">
+                                        <p class="m-b-0" style="color: blue">
+                                            Gestion  Documents
+                                        </p>
+                                        </button>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-md-3">
-                        <div class="card p-30">
-                            <div class="media">
-                                <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-user f-s-40 color-danger"></i></span>
-                                </div>
-                                <div class="media-body media-text-right">
-                                    <h2>847</h2>
-                                    <p class="m-b-0">Customer</p>
-                                </div>
+                    &#160;
+
+                    <div class="card " >
+                        <a href="{{route('gestionArchives')}}">
+                            <div class="btn-group-vertical">
+                            <button type="button" class="btn btn-sm  ">
+                                <img src="images/archivies.jpg" style="height: 100px; width: 100px;" alt="">
+                            </button>
+                               <button class="btn btn-sm">
+                                        <p class="m-b-0" style="color: blue">
+                                            Gestion  Archives
+                                        </p>
+                               </button>
                             </div>
-                        </div>
+                        </a>
                     </div>
+                    &#160;
+
+                    <div class="card " >
+                        <a href="#">
+                            <div class="btn-group-vertical">
+                            <button type="button" class="btn btn-sm   ">
+                                <img src="images/mail.jpg" style="height: 100px; width: 100px;" alt="">
+                            </button>
+                                <button class="btn btn-sm">
+                                        <p class="m-b-0" style="color: blue">
+                                            Gestion  Mails
+                                        </p>
+
+                            </button>
+                            </div>
+                        </a>
+                    </div>
+
+                    &#160;
+
+                    <div class="card " >
+                        <a href="{{route('gestionAgendas')}}">
+                            <div class="btn-group-vertical">
+                            <button type="button" class="btn btn-sm   ">
+                                <img src="images/agenda.jpg" style="height:100px; width: 100px; " alt="">
+                            </button>
+                                <button class="btn btn-sm">
+                                        <p class="m-b-0" style="color: blue">
+                                            Gestion  Agendas
+                                        </p>
+                                                                </button>
+                            </div>
+                        </a>
+                    </div>
+                    &#160;
+
+                    <div class="card " >
+                        <a href="{{route('gestionDossiers')}}">
+                            <div class="btn-group-vertical">
+                            <button type="button" class="btn btn-sm   ">
+                                <img src="images/corbeille.jpg" style="height:100px; width: 100px; " alt="">
+                            </button>
+                                <button class="btn btn-sm"
+                                        <p class="m-b-0" style="color: blue">
+                                            Gestion  Corbeilles
+                                        </p>
+
+                            </button>
+                            </div>
+                        </a>
+                    </div>
+
+
+
                 </div>
+
                 <!-- BTN AJOUTER, LISTER, ARCHIVES -->
-                        <div class="bg-white card-toggle-body m-l-0 m-r-0 box-shadow ">
-                                <div class="button-list">
-                                    <a href="{{route('gestionDocuments')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Documents</button></a>
-                                    <a href="{{route('gestionRepertoires')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">Repertoires</button></a>
-                                    <a href="{{route('gestionArchives')}}"><button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5"> Archives</button></a>
-                                    <a href="{{route('gestionMails')}}"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5"> Mails</button></a>
-                                    <a href="{{route('gestionUtilisateurs')}}"> <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5"> Utlisateurs</button></a>
-                                </div>
-                        </div>
-
-                <div class="row">
-                    <!-- Column     -->
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-title">
-                                <h4>Recent Documents </h4>
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>Titre</th>
-                                            <th>Utilisateur</th>
-                                            <th>Chemin</th>
-                                            <th>Resume</th>
-                                            <th>Categorie</th>
-                                            <th>format</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-
-                                        <tr>
-                                            <td>
-                                                <div class="round-img">
-                                                    <a href=""><img src="images/avatar/4.jpg" alt=""></a>
-                                                </div>
-                                            </td>
-                                            <td>John Abraham</td>
-                                            <td><span>iBook</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span class="badge badge-success">Done</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="round-img">
-                                                    <a href=""><img src="images/avatar/2.jpg" alt=""></a>
-                                                </div>
-                                            </td>
-                                            <td>John Abraham</td>
-                                            <td><span>iPhone</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span class="badge badge-success">Done</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="round-img">
-                                                    <a href=""><img src="images/avatar/3.jpg" alt=""></a>
-                                                </div>
-                                            </td>
-                                            <td>John Abraham</td>
-                                            <td><span>iMac</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span class="badge badge-warning">Pending</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="round-img">
-                                                    <a href=""><img src="images/avatar/4.jpg" alt=""></a>
-                                                </div>
-                                            </td>
-                                            <td>John Abraham</td>
-                                            <td><span>iBook</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span>456 pcs</span></td>
-                                            <td><span class="badge badge-success">Done</span></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="row">
                     <div class="col-lg-8">
@@ -222,7 +190,7 @@
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Todo</h4>
+                                <h4 class="card-title">Mes Tâches</h4>
                                 <div class="card-content">
                                     <div class="todo-list">
                                         <div class="tdl-holder">

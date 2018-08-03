@@ -42,7 +42,7 @@
                                     <td>47</td>
                                     <td>2009/07/07</td>
                                     <td>$87,500</td>
-                                    <td><button class="btn btn-primary">Archiver</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
+                                    <td><button class="btn btn-primary">Envoyer</button>&#160;<button class="btn btn-primary">Archiver</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
                                 </tr>
                                 <tr>
                                     <td>Serge Baldwin</td>
@@ -51,7 +51,7 @@
                                     <td>64</td>
                                     <td>2012/04/09</td>
                                     <td>$138,575</td>
-                                    <td><button class="btn btn-primary">Archiver</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
+                                    <td><button class="btn btn-primary">Envoyer</button>&#160;<button class="btn btn-primary">Archiver</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
 
                                 </tr>
                                 <tr>
@@ -61,7 +61,7 @@
                                     <td>63</td>
                                     <td>2010/01/04</td>
                                     <td>$125,250</td>
-                                    <td><button class="btn btn-primary">Archiver</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
+                                    <td><button class="btn btn-primary">Envoyer</button>&#160;<button class="btn btn-primary">Archiver</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
 
                                 </tr>
                                 <tr>
@@ -71,7 +71,7 @@
                                     <td>56</td>
                                     <td>2012/06/01</td>
                                     <td>$115,000</td>
-                                    <td><button class="btn btn-primary">Archiver</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
+                                    <td><button class="btn btn-primary">Envoyer</button>&#160;<button class="btn btn-primary">Archiver</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
 
                                 </tr>
 

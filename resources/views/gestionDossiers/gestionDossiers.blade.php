@@ -2,124 +2,109 @@
 @section('appContent')
 
     <!-- Container fluid  -->
-     <div class="container-fluid">
-         <div class="row">
-             <div class="col-lg-30">
-                 <h1 class="text text-center "><span class="label label-warning">GESTION DES DOCUMENTS</span></h1>
-             </div>
-         </div>
-         <br/><br/
+    <div class="container-fluid">
         <!-- Start Page Content -->
+
+
+        <div class="row">
+            <div class="col-lg-30">
+                <h1 class="text text-center "><span class="label label-warning">GESTION DES DOSSIERS</span></h1>
+            </div>
+        </div>
+    <br/><br/>
+
         <div class="row">
 
-
                 <div class="media">
-
                     <div class="media-body media-text-right">
-
                         <p class="m-b-0">
-                            <a href="{{route('addDocuments')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-plus-circle" style="font-size:20px;color:black"></i></span>
-                                    Ajouter Documents </button>
+                            <a href="{{route('addDossiers')}}">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-plus-circle" style="font-size:20px;color:black"></i></span>
+                                    Ajouter un Dossier </button>
                             </a>
                         </p>
                     </div>
                 </div>
 
-            &#160;
 
-
-                <div class="media">
-
-                    <div class="media-body media-text-right">
-
-                        <p class="m-b-0">
-                            <a href="{{route('catArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-object-group" style="font-size:20px;color:black"></i></span>
-                                    Archiver Documents</button>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-
-            &#160;
+            &#160;&#160;&#160;
 
                 <div class="media">
 
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
-                            <a href="{{route('showDocument')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-reorder" style="font-size:20px;color:black"></i></span>
-                                    Liste Documents</button>
+                            <a href="{{route('showDossiers')}}">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-reorder" style="font-size:20px;color:black"></i></span>
+                                    Liste des Dossier</button>
+
                             </a>
                         </p>
 
                     </div>
                 </div>
 
-            &#160;
+            &#160;&#160;&#160;
 
                 <div class="media">
 
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
-                            <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-level-down" style="font-size:20px;color:black"></i></span>
-                                    Importer Documents</button>
+                            <a href="{{route('imporDossiers')}}">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-level-down" style="font-size:20px;color:black"></i></span>
+                                    Importer Dossiers</button>
                             </a>
                         </p>
                     </div>
                 </div>
 
-            &#160;
+            &#160;&#160;&#160;
 
                 <div class="media">
 
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
-                            <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-retweet" style="font-size:20px;color:black"></i></span>
-                                    Déplacer Documents</button>
+                            <a href="{{route('deplDossiers')}}">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm">  <span><i class="fa fa-retweet" style="font-size:20px;color:black"></i></span>
+                                    Déplacer Dossiers</button>&#160;&#160;
                             </a>
                         </p>
                     </div>
                 </div>
 
-            &#160;
-
-
+            &#160;&#160;&#160;
 
                 <div class="media">
 
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
-                            <a href="{{route('showArchives')}}">
+                            <a href="{{route('consulDossiers')}}">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-newspaper-o" style="font-size:20px;color:black"></i></span>
+                                    Consulter Dossiers</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+            &#160;&#160;&#160;
+
+                <div class="media">
+
+                    <div class="media-body media-text-right">
+
+                        <p class="m-b-0">
+                            <a href="{{route('exportDossiers')}}">
                                 <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-level-up" style="font-size:20px;color:black"></i></span>
-                                    Exporter Documents</button>
+                                    Exporter Dossiers</button>
                             </a>
                         </p>
                     </div>
                 </div>
 
-            &#160;
 
-
-                <div class="media">
-
-                    <div class="media-body media-text-right">
-
-                        <p class="m-b-0">
-                            <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-edit" style="font-size:20px;color:black"></i></span>
-                                    Traiter un Documents</button>
-                            </a>
-                        </p>
-                    </div>
-                </div>
 
 
 
@@ -136,7 +121,7 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-title">
-                        <h4>Recent Documents </h4>
+                        <h4>Recent Dossiers </h4>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
