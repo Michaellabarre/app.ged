@@ -10,7 +10,7 @@
                         <h4 class="card-title">Listes des Archives</h4>
                         <h6 class="card-subtitle">Cliquez sur les boutons d'actions pour plus d'options</h6>
                         <div class="table-responsive m-t-40">
-                            <table id="example23" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
+                            <table id="example23" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" >
                                 <thead>
                                 <tr>
                                     <th>Intitule</th>

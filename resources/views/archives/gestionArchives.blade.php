@@ -1,169 +1,144 @@
 @extends('layout.index')
 @section('appContent')
 
-    <!-- Container fluid  -->
-    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
     <div class="container-fluid">
-        <!-- Start Page Content -->
-        <div class="row">
+    <div class="row">
+        <div class="col-lg-30">
+            <h1 class="text text-center "><span class="label label-warning">GESTION DES ARCHIVES</span></h1>
+        </div>
+    </div>
+    <br/><br/> <!-- Container fluid  -->
 
-                <div class="card p-30">
+        &#160;
+        <!-- Start Page Content -->
+        <div class="row center-block">
+
+            &#160;
                     <div class="media">
-                        <div class="media-left meida media-middle">
-                            <span><i class="fa fa-plus-circle" style="font-size:48px;color:black"></i></span>
-                    </div>
+
                         <div class="media-body media-text-right">
 
                             <p class="m-b-0">
                                 <a href="{{route('addArchives')}}">
-                                    <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                    <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-plus-circle" style="font-size:20px;color:black"></i></span>
                                         Ajouter Archives </button>
                                 </a>
                             </p>
                         </div>
                     </div>
-                </div>
-                    &#160;&#160;&#160;&#160;&#160;&#160;
 
-                <div class="card p-30">
-                    <div class="media">
-                        <div class="media-left meida media-middle">
-                            <span><i class="fa fa-object-group" style="font-size:48px;color:black"></i></span>
-                        </div>
-                        <div class="media-body media-text-right">
 
-                            <p class="m-b-0">
-                                <a href="{{route('catArchives')}}">
-                                    <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                        Categorie Archives</button>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
-                <div class="card p-30">
+
+
+            &#160;
+
                     <div class="media">
-                        <div class="media-left meida media-middle">
-                            <span><i class="fa fa-reorder" style="font-size:48px;color:black"></i></span>
-                        </div>
+
                         <div class="media-body media-text-right">
 
                             <p class="m-b-0">
                                 <a href="{{route('showArchives')}}">
-                                    <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                        Liste Archives</button>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                                    <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-reorder" style="font-size:20px;color:black"></i></span>
+                                        Liste Archives</button>
                                 </a>
                             </p>
 
                         </div>
                     </div>
-                </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
-            <div class="card p-30">
+
+            &#160;
+
                 <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-level-down" style="font-size:48px;color:black"></i></span>
-                    </div>
+
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-level-down" style="font-size:20px;color:black"></i></span>
                                     Importer Archives</button>
                             </a>
                         </p>
                     </div>
                 </div>
-            </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
-            <div class="card p-30">
+
+            &#160;
+
                 <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-retweet" style="font-size:48px;color:black"></i></span>
-                    </div>
+
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Déplacer Archives</button>&#160;&#160;&#160;&#160;
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"><span><i class="fa fa-retweet" style="font-size:20px;color:black"></i></span>
+                                    Déplacer Archives</button>
                             </a>
                         </p>
                     </div>
                 </div>
-            </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
-            <div class="card p-30">
+
+            &#160;
+
                 <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-newspaper-o" style="font-size:48px;color:black"></i></span>
-                    </div>
+
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-newspaper-o" style="font-size:20px;color:black"></i></span>
                                     Consulter Archives</button>
                             </a>
                         </p>
                     </div>
                 </div>
-            </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
-            <div class="card p-30">
+
+            &#160;
+
                 <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-level-up" style="font-size:48px;color:black"></i></span>
-                    </div>
+
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm">    <span><i class="fa fa-level-up" style="font-size:20px;color:black"></i></span>
                                     Exporter Archives</button>
                             </a>
                         </p>
                     </div>
                 </div>
-            </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
-            <div class="card p-30">
+
+            &#160;
+
                 <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-heartbeat" style="font-size:48px;color:black"></i></span>
-                    </div>
+
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Convertir Archives</button>&#160;&#160;&#160;&#160;
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm"> <span><i class="fa fa-heartbeat" style="font-size:20px;color:black"></i></span>
+                                    Convertir Archives</button>
                             </a>
                         </p>
                     </div>
                 </div>
-            </div>
-            &#160;&#160;&#160;&#160;&#160;&#160;
-            <div class="card p-30">
+
+            &#160;
+
                 <div class="media">
-                    <div class="media-left meida media-middle">
-                        <span><i class="fa fa-edit" style="font-size:48px;color:black"></i></span>
-                    </div>
+
                     <div class="media-body media-text-right">
 
                         <p class="m-b-0">
                             <a href="{{route('showArchives')}}">
-                                <button type="button" class="btn btn-success btn-flat btn-addon btn-lg m-b-10 m-l-5">
-                                    Traiter un Archives</button>&#160;&#160;&#160;&#160;
+                                <button type="button" class="btn btn-success btn-flat btn-addon btn-sm">  <span><i class="fa fa-edit" style="font-size:20px;color:black"></i></span>
+                                    Traiter un Archives</button>
                             </a>
                         </p>
                     </div>
                 </div>
-            </div>
 
 
         </div>
+
         <!-- BTN AJOUTER, LISTER, ARCHIVES -->
         <div class="bg-white card-toggle-body m-l-0 m-r-0 box-shadow ">
             <div class="button-list">
@@ -249,9 +224,9 @@
         <!-- End PAge Content -->
     </div>
     <!-- End Container fluid  -->
-    </div>
+
     <!-- End Page wrapper  -->
-    </div>
+
 
 
 @endsection

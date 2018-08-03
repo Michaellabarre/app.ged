@@ -35,6 +35,22 @@ class GestionDossiersController
     {
         return view('historiques.historique');
     }
+    public function  consul()
+    {
+        return view('gestionDossiers.consulDossiers');
+    }
+    public function  expo()
+    {
+        return view('gestionDossiers.exportDossiers');
+    }
+    public function  depl()
+    {
+        return view('gestionDossiers.deplDossiers');
+    }
+    public function  impo()
+    {
+        return view('gestionDossiers.imporDossiers');
+    }
 
     /**
      * Show the form for creating a new resource.
