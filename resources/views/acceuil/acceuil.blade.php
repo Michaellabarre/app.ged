@@ -2,11 +2,12 @@
 @section('appContent')
             <!-- Container fluid  -->
 
-            <div class="container-fluid center-block">
+            <div class="container-fluid">
                 <!-- Start Page Content -->
 
+                &#160;&#160;&#160;<div class="border-bottom:solid white 2px;" ></div>                <div></div>&#160;&#160;&#160;&#160;
 
-                <div class="row text-center">
+                <div class="row ">
                     &#160;
 
 
@@ -116,6 +117,7 @@
 
 
                 </div>
+                <div></div>
 
                 <!-- BTN AJOUTER, LISTER, ARCHIVES -->
 
