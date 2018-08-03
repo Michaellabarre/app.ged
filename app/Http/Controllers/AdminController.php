@@ -16,6 +16,11 @@ class AdminController extends Controller
       return view('admin.dashboard.dashged');
     }
 
+    public function userShow()
+    {
+        return view('admin.utilisateurs.user');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

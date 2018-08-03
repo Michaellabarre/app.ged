@@ -43,3 +43,8 @@ route::get('gestionUtilisateurs','GestionUtilisateurController@index')->name('ge
  */
 
 Route::get('dashboard','AdminController@index')->name('dashboard');
+
+       /**
+        * Admin Users
+        */
+       Route::get('user', 'AdminController@userShow')->name('user');

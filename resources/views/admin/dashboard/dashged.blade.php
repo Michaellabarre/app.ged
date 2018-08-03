@@ -85,15 +85,9 @@
                       </small>
                   </div>
                   <div class="card-body">
-                      <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-                      <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
-
-                      <button type="button" class="btn btn-primary btn-lg btn-block">Primary</button>
-                      <button type="button" class="btn btn-secondary btn-lg btn-block">Secondary</button>
-                      <button type="button" class="btn btn-success btn-lg btn-block">Success</button>
-                      <button type="button" class="btn btn-warning btn-lg btn-block">Warning</button>
-                      <button type="button" class="btn btn-danger btn-lg btn-block">Danger</button>
-                      <button type="button" class="btn btn-link btn-lg btn-block">Link</button>
+                      <a type="button" class="btn btn-primary btn-lg btn-block"  href="#" >Ajouter categorie</a>
+                      <a type="button" class="btn btn-success btn-lg btn-block"  href="#" >Liste Categorie</a>
+                      <a type="button" class="btn btn-danger btn-lg btn-block"  href="#" >Block level button</a>
                   </div>
               </div><!-- /# card -->
           </div>
@@ -107,15 +101,9 @@
                       </small>
                   </div>
                   <div class="card-body">
-                      <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-                      <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
-
-                      <button type="button" class="btn btn-primary btn-lg btn-block">Primary</button>
-                      <button type="button" class="btn btn-secondary btn-lg btn-block">Secondary</button>
-                      <button type="button" class="btn btn-success btn-lg btn-block">Success</button>
-                      <button type="button" class="btn btn-warning btn-lg btn-block">Warning</button>
-                      <button type="button" class="btn btn-danger btn-lg btn-block">Danger</button>
-                      <button type="button" class="btn btn-link btn-lg btn-block">Link</button>
+                      <a type="button" class="btn btn-primary btn-lg btn-block"  href="#" >Ajouter Utilisateurs</a>
+                      <a type="button" class="btn btn-success btn-lg btn-block"  href="#" >Liste Des Utilisateurs</a>
+                      <a type="button" class="btn btn-danger btn-lg btn-block"  href="#" >Block level button</a>
                   </div>
               </div><!-- /# card -->
           </div>
