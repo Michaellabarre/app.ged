@@ -5,111 +5,97 @@
             <div class="container-fluid">
                 <!-- Start Page Content -->
 
-                &#160;&#160;&#160;<div class="border-bottom:solid white 2px;" ></div>                <div></div>&#160;&#160;&#160;&#160;
-
+<div class="card">
                 <div class="row ">
-                    &#160;
 
 
-                    <div class="card " >
+
+                    <div  class="card " >
 
                         <a href="{{route('gestionDossiers')}}">
                             <div class="btn-group-vertical ">
                             <button type="button" class="btn  btn-sm ">
-                                <img src="images/Dossier.jpg" style="height: 100px; width: 100px; " alt="">
-                            </button>
-                              <button type="button" class="btn btn-sm">
-                                  <p class="m-b-0" style="color: blue">
-                                            Gestion  Dossiers
-                                  </p>
-                              </button>
+                                <img class="rounded" src="images/Dossier.jpg" style="height: 100px; width: 100px; " alt=""></button>
+                                </br>
+                                Gestion  Dossiers
+
+
+
                     </div>
 
                         </a>
 
                     </div>
-                    &#160;
+
 
                     <div class="card " >
 
                         <a href="{{route('gestionDocuments')}}">
                             <div class="btn-group-vertical">
                                 <button type="button" class="btn btn-sm   ">
-                                <img src="images/document.jpg" style="height: 100px; width: 100px; " alt="">
-                                </button>
-
-                                <button type="button" class="btn btn-sm">
-                                        <p class="m-b-0" style="color: blue">
+                                <img class="rounded" src="images/document.jpg" style="height: 100px; width: 100px; " alt=""></button>
+                                </br>
                                             Gestion  Documents
-                                        </p>
-                                        </button>
+
+
                             </div>
                         </a>
                     </div>
-                    &#160;
 
                     <div class="card " >
                         <a href="{{route('gestionArchives')}}">
                             <div class="btn-group-vertical">
                             <button type="button" class="btn btn-sm  ">
-                                <img src="images/archivies.jpg" style="height: 100px; width: 100px;" alt="">
-                            </button>
-                               <button class="btn btn-sm">
-                                        <p class="m-b-0" style="color: blue">
+                                <img class="rounded" class="rounded" src="images/archivies.jpg" style="height: 100px; width: 100px;" alt=""> </button>
+                                </br>
                                             Gestion  Archives
-                                        </p>
-                               </button>
+
+
                             </div>
                         </a>
                     </div>
-                    &#160;
+
 
                     <div class="card " >
                         <a href="#">
                             <div class="btn-group-vertical">
                             <button type="button" class="btn btn-sm   ">
-                                <img src="images/mail.jpg" style="height: 100px; width: 100px;" alt="">
-                            </button>
-                                <button class="btn btn-sm">
-                                        <p class="m-b-0" style="color: blue">
+                                <img class="rounded" src="images/mail.jpg" style="height: 100px; width: 100px;" alt=""> </button>
+                                </br>
                                             Gestion  Mails
-                                        </p>
 
-                            </button>
+
+
                             </div>
                         </a>
                     </div>
 
-                    &#160;
+
 
                     <div class="card " >
                         <a href="{{route('gestionAgendas')}}">
                             <div class="btn-group-vertical">
                             <button type="button" class="btn btn-sm   ">
-                                <img src="images/agenda.jpg" style="height:100px; width: 100px; " alt="">
-                            </button>
-                                <button class="btn btn-sm">
-                                        <p class="m-b-0" style="color: blue">
+                                <img class="rounded" src="images/agenda.jpg" style="height:100px; width: 100px; " alt=""></button>
+                                </br>
                                             Gestion  Agendas
-                                        </p>
-                                                                </button>
+
+
                             </div>
                         </a>
                     </div>
-                    &#160;
+
 
                     <div class="card " >
                         <a href="{{route('gestionDossiers')}}">
                             <div class="btn-group-vertical">
                             <button type="button" class="btn btn-sm   ">
-                                <img src="images/corbeille.jpg" style="height:100px; width: 100px; " alt="">
-                            </button>
-                                <button class="btn btn-sm"
-                                        <p class="m-b-0" style="color: blue">
+                                <img class="rounded" src="images/corbeille.jpg" style="height:100px; width: 100px; " alt=""> </button>
+                                </br>
                                             Gestion  Corbeilles
-                                        </p>
 
-                            </button>
+
+
                             </div>
                         </a>
                     </div>
@@ -117,7 +103,7 @@
 
 
                 </div>
-                <div></div>
+                </div>
 
                 <!-- BTN AJOUTER, LISTER, ARCHIVES -->
 
