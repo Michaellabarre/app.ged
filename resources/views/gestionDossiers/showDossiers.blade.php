@@ -2,11 +2,7 @@
 @section('appContent')
 
     <div class="container-fluid">
-        <a href="{{route('showDossiers')}}"><button class="btn btn-dropbox">LISTE DES DOSSIERS</button></a>
-        <button class="btn btn-dropbox">OPERATIONS SUR LES DOSSIERS</button>
-        <button class="btn btn-dropbox">ADMIN</button>
-        <h3>INFORMATIONS SUR LE DOSSIER</h3>
-        <hr>
+
         <!-- Start Page Content -->
         <div class="row">
             <div class="col-12">
@@ -36,31 +32,9 @@
                                     <td>Finn Camacho</td>
                                     <td>Support Engineer</td>
 
-                                    <td><button class="btn btn-primary">Envoyer</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
+                                    <td><button class="btn btn-primary">Ouvrir</button>&#160;<button class="btn btn-primary">Supprimer</button>&#160;<button class="btn btn-primary">Exporter</button>&#160;<button class="btn btn-primary">Deplacer</button></td>
                                 </tr>
-                                <tr>
-                                    <td>Finn Camacho</td>
-                                    <td>Support Engineer</td>
 
-                                    <td><button class="btn btn-primary">Envoyer</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
-                                </tr>    <tr>
-                                    <td>Finn Camacho</td>
-                                    <td>Support Engineer</td>
-
-                                    <td><button class="btn btn-primary">Envoyer</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Finn Camacho</td>
-                                    <td>Support Engineer</td>
-
-                                    <td><button class="btn btn-primary">Envoyer</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Finn Camacho</td>
-                                    <td>Support Engineer</td>
-
-                                    <td><button class="btn btn-primary">Envoyer</button>&#160;<button class="btn btn-primary">Modifier</button>&#160;<button class="btn btn-primary">Telecharger</button></td>
-                                </tr>
 
 
                                 </tbody>

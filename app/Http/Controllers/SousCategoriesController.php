@@ -14,7 +14,12 @@ class SousCategoriesController extends Controller
      */
     public function index()
     {
-        //
+return view('acceuil.test');
+    }
+
+    public function indey()
+    {
+        return view('corbeilles.yel');
     }
 
     /**

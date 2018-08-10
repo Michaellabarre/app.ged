@@ -96,3 +96,6 @@ Route::get('dashboard','AdminController@index')->name('dashboard');
  * AGENDAS
  */
 route::get('gestionAgendas','AgendasController@index')->name('gestionAgendas');
+
+route::get('test', 'SousCategoriesController@index')->name('test');
+route::get('yield', 'SousCategoriesController@indey')->name('yield');

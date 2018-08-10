@@ -6,9 +6,7 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-body">
-                        <a href="{{route('showDossiers')}}"><button class="btn btn-dropbox">LISTE DES DOSSIERS</button></a>
-                        <button class="btn btn-dropbox">OPERATIONS SUR LES DOSSIERS</button>
-                        <button class="btn btn-dropbox">ADMIN</button>
+
                         <h3>INFORMATIONS SUR LE DOSSIER</h3>
                         <hr>
                         <form class="form-valide " action="#" method="post">

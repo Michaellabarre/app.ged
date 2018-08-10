@@ -243,14 +243,8 @@
                             </ul>
                         </li>
                         <li class="nav-label">Apps</li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-envelope"></i><span class="hide-menu">Email</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="email-compose.html">nouveau message</a></li>
-                                <li><a href="email-read.html">boite de reception</a></li>
-                                <li><a href="email-inbox.html">message envoyés</a></li>
-
-                            </ul>
-                        </li><li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-folder-open"></i><span class="hide-menu">Gestion Des Dossiers</span></a>
+                         <li> <a class="has-arrow  " href="#" aria-expanded="false">
+                                 <i class="fa fa-folder-open"></i><span class="hide-menu"> DOSSIERS</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="chart-morris.html"><i class="fa fa-list"></i> Lister Dossiers</a></li>
                                 <li><a href="chart-chartist.html"><i class="fa fa-cog"></i> Actions</a></li>
@@ -260,7 +254,8 @@
                         </li>
 
                         <!-- GEST-DOCS -->
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-files-o"></i><span class="hide-menu">Gestion Des Documents</span></a>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-files-o">
+                                </i><span class="hide-menu">DOCUMENTS</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="{{route('addDocuments')}}"><i class="fa fa-plus-circle"></i> Ajouter Nouveau</a></li>
                                 <li><a href="{{route('showDocument')}}"><i class="fa fa-list"></i> Lister Documents</a></li>
@@ -272,32 +267,39 @@
                         <!-- GEST-DOCS -->
 
 
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-file-archive-o" aria-hidden="true"></i><span class="hide-menu">Gestion Des Archivage</span></a>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false">
+                                <i class="fa fa-file-archive-o" aria-hidden="true"></i><span class="hide-menu">ARCHIVES</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="chart-morris.html"><i class="fa fa-list"></i> Lister Dossiers Archivés</a></li>
                                 <li><a href="chart-morris.html">Lister Documents Archivés</a></li>
                                 <li><a href="chart-chartist.html"> <i class="fa fa-cog"></i> Actions</a></li>
                             </ul>
                         </li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-trash-o" ></i><span class="hide-menu">Gestion Des Corbeilles</span></a>
+
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false">
+                                <i class="fa fa-envelope"></i><span class="hide-menu">EMAIL</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="chart-morris.html"><i class="fa fa-list"></i> Lister des Doc en Corbeilles</a></li>
-                                <li><a href="chart-chartist.html"> <i class="fa fa-cog"></i> Actions</a></li>
+                                <li><a href="email-compose.html">nouveau message</a></li>
+                                <li><a href="email-read.html">boite de reception</a></li>
+                                <li><a href="email-inbox.html">message envoyés</a></li>
+
                             </ul>
                         </li>
-
                         <!-- GEST-DOCS -->
 
 
                         <li class="nav-label">EXTRA</li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-calendar-check-o"></i><span class="hide-menu">Agenda <span class="label label-rouded label-success pull-right">8</span></span></a>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false">
+                                <i class="fa fa-calendar-check-o"></i>
+                                <span class="hide-menu">Agenda <span class="label label-rouded label-success pull-right">8</span></span></a>
                             <ul aria-expanded="false" class="collapse">
 
                                 <li><a href="#" class="has-arrow">Voir Taches</a></li>
                                 <li><a href="#" class="has-arrow"><i class="fa fa-plus-circle"></i>Nouvelle Taches</a></li>
                             </ul>
                         </li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-language"></i><span class="hide-menu">Langue</span></a>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false">
+                                <i class="fa fa-language"></i><span class="hide-menu">Langue</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="map-google.html">Changer Langue</a></li>
                                 <li><a href="map-vector.html">Vector</a></li>
@@ -321,6 +323,105 @@
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Acceuil</a></li>
                         <li class="breadcrumb-item active">Dashboard</li>
                     </ol>
+                </div>
+                <div class="card">
+                    <div class="row ">
+
+
+
+                        <div  class="card " >
+
+                            <a href="{{route('gestionDossiers')}}">
+                                <div class="btn-group-vertical ">
+                                    <button type="button" class="btn  btn-sm ">
+                                        <img class="rounded" src="images/Dossier.jpg" style="height: 50px; width: 50px; " alt=""></button>
+                                    </br>
+                                    Gestion  Dossiers
+
+
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+
+                        <div class="card " >
+
+                            <a href="{{route('gestionDocuments')}}">
+                                <div class="btn-group-vertical">
+                                    <button type="button" class="btn btn-sm   ">
+                                        <img class="rounded" src="images/document.jpg" style="height: 50px; width: 50px; " alt=""></button>
+                                    </br>
+                                    Gestion  Documents
+
+
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card " >
+                            <a href="{{route('gestionArchives')}}">
+                                <div class="btn-group-vertical">
+                                    <button type="button" class="btn btn-sm  ">
+                                        <img class="rounded" class="rounded" src="images/archivies.jpg" style="height: 50px; width: 50px;" alt=""> </button>
+                                    </br>
+                                    Gestion  Archives
+
+
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="card " >
+                            <a href="#">
+                                <div class="btn-group-vertical">
+                                    <button type="button" class="btn btn-sm   ">
+                                        <img class="rounded" src="images/mail.jpg" style="height: 50px; width: 50px;" alt=""> </button>
+                                    </br>
+                                    Gestion  Mails
+
+
+
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="card " >
+                            <a href="{{route('gestionAgendas')}}">
+                                <div class="btn-group-vertical">
+                                    <button type="button" class="btn btn-sm   ">
+                                        <img class="rounded" src="images/agenda.jpg" style="height:50px; width: 50px; " alt=""></button>
+                                    </br>
+                                    Gestion  Agendas
+
+
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="card " >
+                            <a href="{{route('gestionDossiers')}}">
+                                <div class="btn-group-vertical">
+                                    <button type="button" class="btn btn-sm   ">
+                                        <img class="rounded" src="images/corbeille.jpg" style="height:50px; width:50px; " alt=""> </button>
+                                    </br>
+                                    Gestion  Corbeilles
+
+
+
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                    </div>
                 </div>
             </div>
             <!-- End Bread crumb -->
